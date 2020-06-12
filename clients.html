@@ -1,0 +1,197 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    />
+    <title>Advance Finance company</title>
+    <style>
+      #loginbtn {
+        margin-left: 40%;
+      }
+
+      #panel {
+        margin-top: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="nav-wrapper indigo">
+        <div class="container">
+          <a href="#" class="brand-logo">Advance Finance</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li>
+              <a href="index.html" class="btn white indigo-text">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <h5 class="center-align grey darken-2 white-text">Client Information</h5>
+      <table class="striped centered">
+        <thead>
+          <tr>
+            <th>Client ID</th>
+            <th>Account No.</th>
+            <th>Name</th>
+            <th>
+              <a href="#" class="btn pink accent-4"
+                >Add a client<i class="material-icons right">person_add</i></a
+              >
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>101</td>
+            <td>Client 1</td>
+            <td>
+              <a href="#" class="btn-floating"
+                ><i class="material-icons right">visibility</i></a
+              >
+              <a href="#" class="btn-floating cyan accent-4"
+                ><i class="material-icons right">edit</i></a
+              >
+              <a href="#" class="btn-floating red accent-4"
+                ><i class="material-icons right">person_remove</i></a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>102</td>
+            <td>Client 2</td>
+            <td>
+              <a href="#" class="btn-floating"
+                ><i class="material-icons right">visibility</i></a
+              >
+              <a href="#" class="btn-floating cyan accent-4"
+                ><i class="material-icons right">edit</i></a
+              >
+              <a href="#" class="btn-floating red accent-4"
+                ><i class="material-icons right">person_remove</i></a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>103</td>
+            <td>Client 3</td>
+            <td>
+              <a href="#" class="btn-floating"
+                ><i class="material-icons right">visibility</i></a
+              >
+              <a href="#" class="btn-floating cyan accent-4"
+                ><i class="material-icons right">edit</i></a
+              >
+              <a href="#" class="btn-floating red accent-4"
+                ><i class="material-icons right">person_remove</i></a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+      });
+    </script>
+  </body>
+</html>
+
+<!-- <div class="container">
+  <ul class="collection with-header">
+    <li class="collection-header white-text cyan accent-4">
+      <div class="right-align">
+        <a href="#" class="btn-large pink accent-4"
+          >Add a client<i class="material-icons right">person_add</i></a
+        >
+      </div>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle blue">person</i>
+      <span class="title">Client 1</span>
+      <p class="grey-text">Client info</p>
+
+      <a href="#" class="btn-floating right">
+        <i class="material-icons black-text">visibility</i>
+      </a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle blue">person</i>
+      <span class="title">Client 1</span>
+      <p class="grey-text">Client info</p>
+      <a href="" class="secondary-content">
+        <i class="material-icons light-blue-text">email</i>
+      </a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle blue">person</i>
+      <span class="title">Client 1</span>
+      <p class="grey-text">Client info</p>
+      <a href="" class="secondary-content">
+        <i class="material-icons light-blue-text">display</i>
+      </a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle blue">person</i>
+      <span class="title">Client 1</span>
+      <p class="grey-text">Client info</p>
+      <a href="" class="secondary-content">
+        <i class="material-icons light-blue-text">email</i>
+      </a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle blue">person</i>
+      <span class="title">Client 1</span>
+      <p class="grey-text">Client info</p>
+      <a href="" class="secondary-content">
+        <i class="material-icons light-blue-text">email</i>
+      </a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle blue">person</i>
+      <span class="title">Client 1</span>
+      <p class="grey-text">Client info</p>
+      <a href="" class="secondary-content">
+        <i class="material-icons light-blue-text">email</i>
+      </a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle blue">person</i>
+      <span class="title">Client 1</span>
+      <p class="grey-text">Client info</p>
+      <a href="" class="secondary-content">
+        <i class="material-icons light-blue-text">email</i>
+      </a>
+    </li>
+  </ul> -->

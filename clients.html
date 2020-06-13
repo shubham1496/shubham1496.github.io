@@ -22,13 +22,17 @@
       #panel {
         margin-top: 20%;
       }
+
+      nav .brand-logo {
+        font-size: 1.5rem;
+      }
     </style>
   </head>
   <body>
-    <div class="navbar-fixed">
-      <nav class="nav-wrapper indigo">
+    <div class="navbar-fixed z-depth-2">
+      <nav class="nav-wrapper indigo darken-4">
         <div class="container">
-          <a href="#" class="brand-logo flow-text">Advance Finance</a>
+          <a href="#" class="brand-logo">Advance Finance</a>
           <a href="#" class="sidenav-trigger" data-target="mobile-links">
             <i class="material-icons">menu</i>
           </a>
@@ -43,16 +47,33 @@
       </nav>
     </div>
     <div class="container">
-      <h5 class="center-align grey darken-2 white-text">Client Information</h5>
-      <table class="striped centered">
+      <nav>
+        <div class="nav-wrapper">
+          <form>
+            <div class="input-field white">
+              <input
+                id="search"
+                placeholder="Search Clients"
+                type="search"
+                required
+              />
+              <label class="label-icon" for="search"
+                ><i class="material-icons">search</i></label
+              >
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+        </div>
+      </nav>
+      <table class="highlight responsive-table centered z-depth-2">
         <thead>
           <tr>
             <th>Client ID</th>
             <th>Account No.</th>
             <th>Name</th>
             <th>
-              <a href="#" class="btn pink accent-4"
-                >Add a client<i class="material-icons right">person_add</i></a
+              <a href="#" class="btn pink accent-4 waves-effect waves-light"
+                >New Client<i class="material-icons right">person_add</i></a
               >
             </th>
           </tr>
@@ -64,13 +85,17 @@
             <td>101</td>
             <td>Client 1</td>
             <td>
-              <a href="#" class="btn-floating"
+              <a href="#" class="btn-floating waves-effect waves-light"
                 ><i class="material-icons right">visibility</i></a
               >
-              <a href="#" class="btn-floating cyan accent-4"
+              <a
+                href="#"
+                class="btn-floating cyan accent-4 waves-effect waves-light"
                 ><i class="material-icons right">edit</i></a
               >
-              <a href="#" class="btn-floating red accent-4"
+              <a
+                href="#"
+                class="btn-floating red accent-4 waves-effect waves-light"
                 ><i class="material-icons right">person_remove</i></a
               >
             </td>
@@ -80,13 +105,17 @@
             <td>102</td>
             <td>Client 2</td>
             <td>
-              <a href="#" class="btn-floating"
+              <a href="#" class="btn-floating waves-effect waves-light"
                 ><i class="material-icons right">visibility</i></a
               >
-              <a href="#" class="btn-floating cyan accent-4"
+              <a
+                href="#"
+                class="btn-floating cyan accent-4 waves-effect waves-light"
                 ><i class="material-icons right">edit</i></a
               >
-              <a href="#" class="btn-floating red accent-4"
+              <a
+                href="#"
+                class="btn-floating red accent-4 waves-effect waves-light"
                 ><i class="material-icons right">person_remove</i></a
               >
             </td>
@@ -96,13 +125,17 @@
             <td>103</td>
             <td>Client 3</td>
             <td>
-              <a href="#" class="btn-floating"
+              <a href="#" class="btn-floating waves-effect waves-light"
                 ><i class="material-icons right">visibility</i></a
               >
-              <a href="#" class="btn-floating cyan accent-4"
+              <a
+                href="#"
+                class="btn-floating cyan accent-4 waves-effect waves-light"
                 ><i class="material-icons right">edit</i></a
               >
-              <a href="#" class="btn-floating red accent-4"
+              <a
+                href="#"
+                class="btn-floating red accent-4 waves-effect waves-light"
                 ><i class="material-icons right">person_remove</i></a
               >
             </td>
@@ -127,71 +160,3 @@
     </script>
   </body>
 </html>
-
-<!-- <div class="container">
-  <ul class="collection with-header">
-    <li class="collection-header white-text cyan accent-4">
-      <div class="right-align">
-        <a href="#" class="btn-large pink accent-4"
-          >Add a client<i class="material-icons right">person_add</i></a
-        >
-      </div>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle blue">person</i>
-      <span class="title">Client 1</span>
-      <p class="grey-text">Client info</p>
-
-      <a href="#" class="btn-floating right">
-        <i class="material-icons black-text">visibility</i>
-      </a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle blue">person</i>
-      <span class="title">Client 1</span>
-      <p class="grey-text">Client info</p>
-      <a href="" class="secondary-content">
-        <i class="material-icons light-blue-text">email</i>
-      </a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle blue">person</i>
-      <span class="title">Client 1</span>
-      <p class="grey-text">Client info</p>
-      <a href="" class="secondary-content">
-        <i class="material-icons light-blue-text">display</i>
-      </a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle blue">person</i>
-      <span class="title">Client 1</span>
-      <p class="grey-text">Client info</p>
-      <a href="" class="secondary-content">
-        <i class="material-icons light-blue-text">email</i>
-      </a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle blue">person</i>
-      <span class="title">Client 1</span>
-      <p class="grey-text">Client info</p>
-      <a href="" class="secondary-content">
-        <i class="material-icons light-blue-text">email</i>
-      </a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle blue">person</i>
-      <span class="title">Client 1</span>
-      <p class="grey-text">Client info</p>
-      <a href="" class="secondary-content">
-        <i class="material-icons light-blue-text">email</i>
-      </a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle blue">person</i>
-      <span class="title">Client 1</span>
-      <p class="grey-text">Client info</p>
-      <a href="" class="secondary-content">
-        <i class="material-icons light-blue-text">email</i>
-      </a>
-    </li>
-  </ul> -->

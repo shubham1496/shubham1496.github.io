@@ -13,21 +13,12 @@ body {
 .result{
   font-family: 'Open Sans', sans-serif;
 }
-.btn{
-  float: left;
-  height: 80px;
-  font-size: 1.2em;
-  border: 1px solid;
-  width: 5.4vw;
-  margin-left: -0.6vw;
-}
-.btn-special {
-  width: 10.7vw;
-}
+
+
 
 body {
   display: flex;
-  min-height: 80vh;
+  min-height: 100vh;
   flex-direction: column;
 }
 

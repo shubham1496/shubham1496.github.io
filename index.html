@@ -18,52 +18,60 @@
 
 <body>
   <main>
+    <!-- <div class="container"> -->
+    <div class="row">
+      <div class="col s12 l4 offset-l4 xl4 offset-xl4">
+        <div class="card-panel  #212121 grey darken-4 right-align screen">
 
-      <div class="row">
-        <div class="col s12 l4 offset-l4 xl4 offset-xl4">
-          <div class="card-panel  #212121 grey darken-4 right-align screen">
+          <div id="instalment_display" class="white-text result"></div>
+          <div id="result" class="white-text">
+            <h5 class="result">0</h5>
+          </div>
 
-            <div id="instalment_display" class="white-text result"></div>
-            <div id="result" class="white-text">
-              <h5 class="result">0</h5>
+        </div>
+        <div class="card-panel  col s12 z-depth-5 #fafafa grey lighten-5">
+          <form class="form-design">
+            <div class="row ">
+              <div class="input-field col s12">
+                <input id="actual_amount" type="text" class="validate">
+                <label for="actual_amount">Actual Amount</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="interest" type="text" class="validate">
+                <label for="interest">Interest</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="years" type="text" class="validate">
+                <label for="years">Years</label>
+              </div>
             </div>
 
-          </div>
-          <div class="card-panel  col s12 z-depth-5 #fafafa grey lighten-5">
-            <form class="form-design">
-              <div class="row ">
-                <div class="input-field col s12">
-                  <input id="actual_amount" type="text" class="validate">
-                  <label for="actual_amount">Actual Amount</label>
-                </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="incidential_charges" type="text" class="validate">
+                <label for="incidential_charges">Incidential Charges</label>
               </div>
-              <div class="row">
-                <div class="input-field col s6">
-                  <input id="interest" type="text" class="validate">
-                  <label for="interest">Interest</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="years" type="text" class="validate">
-                  <label for="years">Years</label>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="incidential_charges" type="text" class="validate">
-                  <label for="incidential_charges">Incidential Charges</label>
-                </div>
-              </div>
-              <!-- <button id="calculate" class="waves-effect waves-light btn-small"><i
+            </div>
+            <!-- <button id="calculate" class="waves-effect waves-light btn-small"><i
                   class="material-icons right">calculate</i>Calculate
                 Instalment</button> -->
-              <input type="submit" value="calculate" class="btn-small">
-              <a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">clear_all</i></a>
-            </form>
-          </div>
+            <div class="row">
+              <div class="col s10">
+                <input type="submit" value="calculate instalment" class="btn-small">
+              </div>
+              <div class="col s2">
+                <a class="btn-floating btn-small waves-effect waves-light red"><i
+                    class="material-icons">clear_all</i></a>
+              </div>
+            </div>
+
+          </form>
         </div>
       </div>
-
+    </div>
+    <!-- </div> -->
   </main>
   <!--JavaScript at end of body for optimized loading-->
   <!-- Compiled and minified JavaScript -->

@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(0deg, rgb(112, 53, 205) 0%, rgb(44, 120, 234) 99%);
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+.result{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.detail{
+  border-bottom: 1px solid white;
+  
+}
+
+.calc_title{
+  color: #2959B3;
+}
